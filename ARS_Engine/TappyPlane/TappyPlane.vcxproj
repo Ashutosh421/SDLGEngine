@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Assets\GameScripts\PlaneController.cpp" />
+    <ClCompile Include="Assets\GameScripts\PlatformManager.cpp" />
+    <ClCompile Include="Assets\GameScripts\GameManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libFLAC-8.dll" />
+    <None Include="libjpeg-9.dll" />
+    <None Include="libmodplug-1.dll" />
+    <None Include="libogg-0.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="libtiff-5.dll" />
+    <None Include="libvorbis-0.dll" />
+    <None Include="libvorbisfile-3.dll" />
+    <None Include="libwebp-4.dll" />
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2_mixer.dll" />
+    <None Include="smpeg2.dll" />
+    <None Include="zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\TappyPlane\background.png" />
+    <Image Include="Assets\Images\TappyPlane\groundDirt.png" />
+    <Image Include="Assets\Images\TappyPlane\groundGrass.png" />
+    <Image Include="Assets\Images\TappyPlane\groundIce.png" />
+    <Image Include="Assets\Images\TappyPlane\groundRock.png" />
+    <Image Include="Assets\Images\TappyPlane\groundSnow.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterA.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterB.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterC.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterD.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterE.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterF.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterG.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterH.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterI.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterJ.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterK.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterL.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterM.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterN.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterO.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterP.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterQ.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterR.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterS.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterT.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterU.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterV.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterW.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterX.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterY.png" />
+    <Image Include="Assets\Images\TappyPlane\Letters\letterZ.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number0.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number1.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number2.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number3.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number4.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number5.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number6.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number7.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number8.png" />
+    <Image Include="Assets\Images\TappyPlane\Numbers\number9.png" />
+    <Image Include="Assets\Images\TappyPlane\planes.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue1.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue2.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue3.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen1.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen2.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen3.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed1.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed2.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed3.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow1.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow2.png" />
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow3.png" />
+    <Image Include="Assets\Images\TappyPlane\puffLarge.png" />
+    <Image Include="Assets\Images\TappyPlane\puffSmall.png" />
+    <Image Include="Assets\Images\TappyPlane\rock.png" />
+    <Image Include="Assets\Images\TappyPlane\rockDown.png" />
+    <Image Include="Assets\Images\TappyPlane\rockGrass.png" />
+    <Image Include="Assets\Images\TappyPlane\rockGrassDown.png" />
+    <Image Include="Assets\Images\TappyPlane\rockIce.png" />
+    <Image Include="Assets\Images\TappyPlane\rockIceDown.png" />
+    <Image Include="Assets\Images\TappyPlane\rockSnow.png" />
+    <Image Include="Assets\Images\TappyPlane\rockSnowDown.png" />
+    <Image Include="Assets\Images\TappyPlane\sample.png" />
+    <Image Include="Assets\Images\TappyPlane\starBronze.png" />
+    <Image Include="Assets\Images\TappyPlane\starGold.png" />
+    <Image Include="Assets\Images\TappyPlane\starSilver.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\buttonLarge.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\buttonSmall.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\medalBronze.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\medalGold.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\medalSilver.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\tap.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\tapLeft.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\tapRight.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\TapSpriteSheet.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\tapTick.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\textGameOver.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\textGetReady.png" />
+    <Image Include="Assets\Images\TappyPlane\UI\UIbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\Helicopter2_Loop.mp3" />
+    <Media Include="Assets\Audio\Ready_Set.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assets\GameScripts\PlaneController.h" />
+    <ClInclude Include="Assets\GameScripts\PlatformManager.h" />
+    <ClInclude Include="Assets\GameScripts\GameManager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{45ED7FAF-4E54-41C4-9B38-07744DAF3187}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TappyPlane</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin</OutDir>
+    <IncludePath>$(SolutionDir)\ARS_Engine;$(SolutionDir)\ExternalLibraries\SDL2_mixer\include;$(SolutionDir)\ExternalLibraries\SDL2_image\include;$(SolutionDir)\ExternalLibraries\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ashutosh\Documents\Visual Studio 2017\Projects\ARS_Engine\ARS_Engine\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin</OutDir>
+    <IncludePath>$(SolutionDir)\ARS_Engine;$(SolutionDir)\ExternalLibraries\SDL2_mixer\include;$(SolutionDir)\ExternalLibraries\SDL2_image\include;$(SolutionDir)\ExternalLibraries\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ashutosh\Documents\Visual Studio 2017\Projects\ARS_Engine\ARS_Engine\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\bin</OutDir>
+    <IncludePath>$(SolutionDir)\ARS_Engine;$(SolutionDir)\ExternalLibraries\SDL2_mixer\include;$(SolutionDir)\ExternalLibraries\SDL2_image\include;$(SolutionDir)\ExternalLibraries\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ashutosh\Documents\Visual Studio 2017\Projects\ARS_Engine\ARS_Engine\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\bin</OutDir>
+    <IncludePath>$(SolutionDir)\ARS_Engine;$(SolutionDir)\ExternalLibraries\SDL2_mixer\include;$(SolutionDir)\ExternalLibraries\SDL2_image\include;$(SolutionDir)\ExternalLibraries\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ashutosh\Documents\Visual Studio 2017\Projects\ARS_Engine\ARS_Engine\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>ARS_Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>ARS_Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ARS_Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ARS_Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

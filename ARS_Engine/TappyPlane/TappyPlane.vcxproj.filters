@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\GameScripts\PlatformManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\GameScripts\PlaneController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\GameScripts\GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2_mixer.dll" />
+    <None Include="libFLAC-8.dll" />
+    <None Include="libjpeg-9.dll" />
+    <None Include="libmodplug-1.dll" />
+    <None Include="libogg-0.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="libtiff-5.dll" />
+    <None Include="libvorbis-0.dll" />
+    <None Include="libvorbisfile-3.dll" />
+    <None Include="libwebp-4.dll" />
+    <None Include="smpeg2.dll" />
+    <None Include="zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\TappyPlane\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\groundDirt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\groundGrass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\groundIce.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\groundRock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\groundSnow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\planes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\puffLarge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\puffSmall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockGrass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockGrassDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockIce.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockIceDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockSnow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\rockSnowDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\sample.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\starBronze.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\starGold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\starSilver.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\buttonLarge.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\buttonSmall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\medalBronze.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\medalGold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\medalSilver.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\tap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\tapLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\tapRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\TapSpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\tapTick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\textGameOver.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\textGetReady.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\UI\UIbg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeBlue3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeGreen3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeRed3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Planes\planeYellow3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Numbers\number9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterB.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterC.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterD.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterF.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterH.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterI.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterJ.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterK.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterL.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterN.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterO.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterP.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterQ.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterT.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterU.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterV.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterW.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterX.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterY.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\TappyPlane\Letters\letterZ.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\Helicopter2_Loop.mp3" />
+    <Media Include="Assets\Audio\Ready_Set.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assets\GameScripts\PlatformManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\GameScripts\PlaneController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\GameScripts\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
